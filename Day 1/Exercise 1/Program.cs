@@ -7,12 +7,11 @@ namespace Exercise_1
     static void Main(string[] args)
         {
             Console.WriteLine("A status report is needed of all government employees");
-            int status = 4;
-             /*for(int counter=0; counter<statuses.Length;counter++ */
-            {
-           /* status = statuses[counter];*/
-            if (status == 1)
-            {Console.WriteLine("Status:Alive");
+            
+            int[] status = new int[] {1,2,3,4};
+            for(int counter = 0; counter < status.Length;counter++)
+             if (status == 1)
+             {Console.WriteLine("Status:Alive"[counter]);
             } 
             else if(status == 2)
             {Console.WriteLine("Status:Zombie"); }
@@ -25,14 +24,14 @@ namespace Exercise_1
             while(counter<status.Length)
             {Console.WriteLine(status[counter]);
             }*/
-            
-           /* switch (value)
+            /* 
+            switch (status)
             {
             case 1:
             Console.WriteLine("Alive");
             break;
             case 2:
-            Console.WriteLine("Zombie");
+            Console.WriteLine("Status:Zombie");
             break;
             case 3:
             Console.WriteLine("Dead");
@@ -44,4 +43,3 @@ namespace Exercise_1
             */
         } 
     }    
-}
