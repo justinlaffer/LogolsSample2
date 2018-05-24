@@ -5,33 +5,33 @@ namespace Exercise_1
     class Program
     {
     static void Main(string[] args)
-        {
-            Console.WriteLine("A status report is needed of all government employees");
+    {
+        /*A status report is needed of all government employees")*/
+          int[] status = {1,2,3,4};
             
-            int[] status = new int[] {1,2,3,4};
-            for(int counter = 0; counter < status.Length;counter++)
-             if (status == 1)
-             {Console.WriteLine("Status:Alive"[counter]);
-            } 
+            for(int count = 0; count < status.Length;count++)
+              if (status == 1)
+             {Console.WriteLine("Status:Alive") ;}
             else if(status == 2)
             {Console.WriteLine("Status:Zombie"); }
             else if(status == 3)
             {Console.WriteLine("Status:Dead");}
             else if(status == 4)
             {Console.WriteLine("Status:Unknown");}
-            }
-           /* int counter=0;
-            while(counter<status.Length)
-            {Console.WriteLine(status[counter]);
+            
+           /* int[] status = new int[] {1,2,3,4};
+            int count = 0;
+            while(count<status.Length)
+            {Console.WriteLine(status[count].ToString());counter++;
             }*/
-            /* 
+                       
             switch (status)
             {
             case 1:
             Console.WriteLine("Alive");
             break;
             case 2:
-            Console.WriteLine("Status:Zombie");
+            Console.WriteLine("Zombie");
             break;
             case 3:
             Console.WriteLine("Dead");
@@ -39,7 +39,8 @@ namespace Exercise_1
             case 4:
             Console.WriteLine("Unknown");
             break;
-            }
-            */
+            }            
         } 
-    }    
+    }   
+
+} 
