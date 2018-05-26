@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Exercise_2
+namespace Exercise1
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Person person = new Person();
         }
     }
 }
